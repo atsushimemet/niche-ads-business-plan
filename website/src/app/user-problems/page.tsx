@@ -7,7 +7,17 @@ export default function UserProblems() {
           
           <div className="space-y-8">
             <section>
-              <h2 className="text-2xl font-semibold text-gray-800 mb-4">一段読書（読書体験支援）</h2>
+              <div className="flex justify-between items-center mb-4">
+                <h2 className="text-2xl font-semibold text-gray-800">一段読書（読書体験支援）</h2>
+                <a
+                  href="https://ichidan-dokusho.netlify.app/tags"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:text-blue-800 text-sm font-medium bg-blue-50 px-3 py-1 rounded"
+                >
+                  アプリを見る →
+                </a>
+              </div>
               <div className="bg-blue-50 p-6 rounded-lg">
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
@@ -81,7 +91,64 @@ export default function UserProblems() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-gray-800 mb-4">Arisa（ナイトワークキャスト検索）</h2>
+              <div className="flex justify-between items-center mb-4">
+                <h2 className="text-2xl font-semibold text-gray-800">Euro a Porte（ユーロヴィンテージファッション体験）</h2>
+                <a
+                  href="https://euro-a-porte.onrender.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-purple-600 hover:text-purple-800 text-sm font-medium bg-purple-50 px-3 py-1 rounded"
+                >
+                  アプリを見る →
+                </a>
+              </div>
+              <div className="bg-purple-50 p-6 rounded-lg">
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <h3 className="text-xl font-semibold text-gray-900 mb-3">👔 ユーザー課題</h3>
+                    <div className="space-y-3">
+                      <div className="bg-white p-4 rounded border-l-4 border-red-500 h-16 flex items-center">
+                        <p className="text-gray-600 text-sm">ユーロヴィンテージの価値や背景知識が不足し、購入やコーディネートに自信が持てない</p>
+                      </div>
+                      <div className="bg-white p-4 rounded border-l-4 border-red-500 h-16 flex items-center">
+                        <p className="text-gray-600 text-sm">信頼できる店舗情報が分散しており、安心して買える場を見つけにくい</p>
+                      </div>
+                      <div className="bg-white p-4 rounded border-l-4 border-red-500 h-16 flex items-center">
+                        <p className="text-gray-600 text-sm">同じ関心を持つコミュニティが小規模で、情報交換の機会が限られている</p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div>
+                    <h3 className="text-xl font-semibold text-gray-900 mb-3">💡 解決策</h3>
+                    <div className="space-y-3">
+                      <div className="bg-white p-4 rounded border-l-4 border-green-500 h-16 flex items-center">
+                        <p className="text-gray-600 text-sm">歴史的文脈やストーリーテリングを交えた商品紹介</p>
+                      </div>
+                      <div className="bg-white p-4 rounded border-l-4 border-green-500 h-16 flex items-center">
+                        <p className="text-gray-600 text-sm">店舗紹介を通じて信頼できる購買先をナビゲート</p>
+                      </div>
+                      <div className="bg-white p-4 rounded border-l-4 border-green-500 h-16 flex items-center">
+                        <p className="text-gray-600 text-sm">ユーザー同士の興味関心をつなげる媒体として機能</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section>
+              <div className="flex justify-between items-center mb-4">
+                <h2 className="text-2xl font-semibold text-gray-800">Arisa（ナイトワークキャスト検索）</h2>
+                <a
+                  href="https://arisa-p0ta.onrender.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-pink-600 hover:text-pink-800 text-sm font-medium bg-pink-50 px-3 py-1 rounded"
+                >
+                  アプリを見る →
+                </a>
+              </div>
               <div className="bg-pink-50 p-6 rounded-lg">
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
@@ -118,7 +185,17 @@ export default function UserProblems() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-gray-800 mb-4">Coubit（夫婦生活支援）</h2>
+              <div className="flex justify-between items-center mb-4">
+                <h2 className="text-2xl font-semibold text-gray-800">Coubit（夫婦生活支援）</h2>
+                <a
+                  href="https://qmgajhvb.manus.space/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-green-600 hover:text-green-800 text-sm font-medium bg-green-50 px-3 py-1 rounded"
+                >
+                  アプリを見る →
+                </a>
+              </div>
               <div className="bg-green-50 p-6 rounded-lg">
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
@@ -155,7 +232,17 @@ export default function UserProblems() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-gray-800 mb-4">KAISEI（飲み会幹事支援）</h2>
+              <div className="flex justify-between items-center mb-4">
+                <h2 className="text-2xl font-semibold text-gray-800">KAISEI（飲み会幹事支援）</h2>
+                <a
+                  href="https://kaisei.onrender.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-yellow-600 hover:text-yellow-800 text-sm font-medium bg-yellow-50 px-3 py-1 rounded"
+                >
+                  アプリを見る →
+                </a>
+              </div>
               <div className="bg-yellow-50 p-6 rounded-lg">
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
@@ -205,26 +292,51 @@ export default function UserProblems() {
                 </div>
 
                 <div className="mt-6 grid md:grid-cols-5 gap-4 text-center">
-                  <div className="bg-blue-100 p-3 rounded">
+                  <a
+                    href="https://ichidan-dokusho.netlify.app/tags"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-blue-100 p-3 rounded hover:bg-blue-200 transition-colors"
+                  >
                     <div className="text-xs text-gray-600 mb-1">一段読書</div>
                     <div className="font-semibold text-blue-600">習慣化支援</div>
-                  </div>
-                  <div className="bg-purple-100 p-3 rounded">
+                  </a>
+                  <a
+                    href="https://euro-a-porte.onrender.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-purple-100 p-3 rounded hover:bg-purple-200 transition-colors"
+                  >
                     <div className="text-xs text-gray-600 mb-1">Euro a Porte</div>
                     <div className="font-semibold text-purple-600">知識・信頼</div>
-                  </div>
-                  <div className="bg-pink-100 p-3 rounded">
+                  </a>
+                  <a
+                    href="https://arisa-p0ta.onrender.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-pink-100 p-3 rounded hover:bg-pink-200 transition-colors"
+                  >
                     <div className="text-xs text-gray-600 mb-1">Arisa</div>
                     <div className="font-semibold text-pink-600">選択支援</div>
-                  </div>
-                  <div className="bg-green-100 p-3 rounded">
+                  </a>
+                  <a
+                    href="https://qmgajhvb.manus.space/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-green-100 p-3 rounded hover:bg-green-200 transition-colors"
+                  >
                     <div className="text-xs text-gray-600 mb-1">Coubit</div>
                     <div className="font-semibold text-green-600">関係改善</div>
-                  </div>
-                  <div className="bg-yellow-100 p-3 rounded">
+                  </a>
+                  <a
+                    href="https://kaisei.onrender.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-yellow-100 p-3 rounded hover:bg-yellow-200 transition-colors"
+                  >
                     <div className="text-xs text-gray-600 mb-1">KAISEI</div>
                     <div className="font-semibold text-yellow-600">負担軽減</div>
-                  </div>
+                  </a>
                 </div>
               </div>
             </section>

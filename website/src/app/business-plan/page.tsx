@@ -17,31 +17,81 @@ export default function BusinessPlan() {
               <h3 className="text-xl font-semibold text-gray-900 mb-4">開発中の5プロダクト</h3>
               <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-6">
                 <div className="bg-blue-50 p-6 rounded-lg">
-                  <h4 className="text-lg font-semibold text-gray-900 mb-2">📚 一段読書</h4>
+                  <div className="flex justify-between items-start mb-2">
+                    <h4 className="text-lg font-semibold text-gray-900">📚 一段読書</h4>
+                    <a
+                      href="https://ichidan-dokusho.netlify.app/tags"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-600 hover:text-blue-800 text-sm font-medium"
+                    >
+                      アプリを見る →
+                    </a>
+                  </div>
                   <p className="text-gray-600 text-sm">
                     読書好き、あるいはこれから読書を習慣にしたい層に向け、選書から読書場所探し、読後メモや知識整理までをワンストップで提供するメディアサービス。
                   </p>
                 </div>
                 <div className="bg-purple-50 p-6 rounded-lg">
-                  <h4 className="text-lg font-semibold text-gray-900 mb-2">👔 Euro a Porte</h4>
+                  <div className="flex justify-between items-start mb-2">
+                    <h4 className="text-lg font-semibold text-gray-900">👔 Euro a Porte</h4>
+                    <a
+                      href="https://euro-a-porte.onrender.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-purple-600 hover:text-purple-800 text-sm font-medium"
+                    >
+                      アプリを見る →
+                    </a>
+                  </div>
                   <p className="text-gray-600 text-sm">
                     ユーロヴィンテージファッションを好む層に向け、店舗紹介や歴史的文脈を交えたストーリーテリングを通じて体験を提供するメディアサービス。
                   </p>
                 </div>
                 <div className="bg-pink-50 p-6 rounded-lg">
-                  <h4 className="text-lg font-semibold text-gray-900 mb-2">🌟 Arisa</h4>
+                  <div className="flex justify-between items-start mb-2">
+                    <h4 className="text-lg font-semibold text-gray-900">🌟 Arisa</h4>
+                    <a
+                      href="https://arisa-p0ta.onrender.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-pink-600 hover:text-pink-800 text-sm font-medium"
+                    >
+                      アプリを見る →
+                    </a>
+                  </div>
                   <p className="text-gray-600 text-sm">
                     ナイトワーク領域におけるキャスト選定を支援し、利用者が事前に候補を比較・検討できるメディアサービス。
                   </p>
                 </div>
                 <div className="bg-green-50 p-6 rounded-lg">
-                  <h4 className="text-lg font-semibold text-gray-900 mb-2">💑 Coubit</h4>
+                  <div className="flex justify-between items-start mb-2">
+                    <h4 className="text-lg font-semibold text-gray-900">💑 Coubit</h4>
+                    <a
+                      href="https://qmgajhvb.manus.space/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-green-600 hover:text-green-800 text-sm font-medium"
+                    >
+                      アプリを見る →
+                    </a>
+                  </div>
                   <p className="text-gray-600 text-sm">
                     夫婦の日常生活における小さな齟齬を解決するマイクロサービス群。例外的にクレジットカード訴求を中心とするが、夫婦向け広告主が存在する場合には従量課金型広告枠を販売する。
                   </p>
                 </div>
                 <div className="bg-yellow-50 p-6 rounded-lg col-span-full lg:col-span-1">
-                  <h4 className="text-lg font-semibold text-gray-900 mb-2">🍻 KAISEI</h4>
+                  <div className="flex justify-between items-start mb-2">
+                    <h4 className="text-lg font-semibold text-gray-900">🍻 KAISEI</h4>
+                    <a
+                      href="https://kaisei.onrender.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-yellow-600 hover:text-yellow-800 text-sm font-medium"
+                    >
+                      アプリを見る →
+                    </a>
+                  </div>
                   <p className="text-gray-600 text-sm">
                     飲み会の幹事を支援するマイクロサービス群。傾斜配分や二次会場所選びといった小規模課題を解決する。
                   </p>
