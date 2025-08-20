@@ -7,116 +7,195 @@ export default function BusinessModel() {
           
           <div className="space-y-8">
             <section>
-              <h2 className="text-2xl font-semibold text-gray-800 mb-4">収益構造</h2>
-              <div className="grid md:grid-cols-2 gap-6">
-                <div className="bg-blue-50 p-6 rounded-lg">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-3">広告配信手数料</h3>
-                  <p className="text-gray-600 mb-3">
-                    広告主から支払われる配信手数料の一定割合（15-20%）を収益として計上
-                  </p>
-                  <div className="text-sm text-gray-500">
-                    <span className="font-medium">収益割合:</span> 全体の70%
-                  </div>
-                </div>
-                <div className="bg-green-50 p-6 rounded-lg">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-3">プレミアム機能</h3>
-                  <p className="text-gray-600 mb-3">
-                    高度なターゲティング機能や詳細なアナリティクスの月額サブスクリプション
-                  </p>
-                  <div className="text-sm text-gray-500">
-                    <span className="font-medium">収益割合:</span> 全体の25%
-                  </div>
-                </div>
-              </div>
-              <div className="mt-4 bg-yellow-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">コンサルティングサービス</h3>
-                <p className="text-gray-600 mb-3">
-                  ニッチ市場でのマーケティング戦略立案や広告運用の専門コンサルティング
+              <h2 className="text-2xl font-semibold text-gray-800 mb-4">1. 本事業の基本構造</h2>
+              <div className="bg-blue-50 p-6 rounded-lg mb-6">
+                <p className="text-gray-600 mb-4">
+                  本事業の収益は、<strong>従量課金型の広告掲載</strong>に依存しています。
+                  各プロダクト（読書、ナイトキャスト、幹事、夫婦、ユーロヴィンテージ）で集めたユーザーを、関連する店舗や事業者の「広告主」とマッチングさせる仕組みです。
                 </p>
-                <div className="text-sm text-gray-500">
-                  <span className="font-medium">収益割合:</span> 全体の5%
-                </div>
-              </div>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-semibold text-gray-800 mb-4">バリューチェーン</h2>
-              <div className="space-y-4">
-                <div className="flex items-start space-x-4">
-                  <div className="flex-shrink-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">1</div>
-                  <div>
-                    <h3 className="text-lg font-semibold text-gray-900">ニッチ市場の特定・分析</h3>
-                    <p className="text-gray-600">AI技術を活用した市場分析により、潜在的なニッチ市場を発見・分析</p>
+                
+                <div className="grid md:grid-cols-3 gap-4">
+                  <div className="bg-white p-4 rounded-lg text-center">
+                    <h4 className="font-semibold text-blue-600 mb-2">👥 ユーザー</h4>
+                    <p className="text-gray-600 text-sm">サービスを利用して課題を解決（例：読書場所探し、幹事の店探しなど）</p>
                   </div>
-                </div>
-                <div className="flex items-start space-x-4">
-                  <div className="flex-shrink-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">2</div>
-                  <div>
-                    <h3 className="text-lg font-semibold text-gray-900">ユーザー獲得・セグメント化</h3>
-                    <p className="text-gray-600">特定のニッチに属するユーザーを獲得し、詳細なセグメント分析を実施</p>
+                  <div className="bg-white p-4 rounded-lg text-center">
+                    <h4 className="font-semibold text-green-600 mb-2">🏪 広告主</h4>
+                    <p className="text-gray-600 text-sm">ユーザーにリーチし、自店舗やサービスを訴求</p>
                   </div>
-                </div>
-                <div className="flex items-start space-x-4">
-                  <div className="flex-shrink-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">3</div>
-                  <div>
-                    <h3 className="text-lg font-semibold text-gray-900">広告主のマッチング</h3>
-                    <p className="text-gray-600">ニッチ市場に興味を持つ広告主を特定し、最適なマッチングを提供</p>
-                  </div>
-                </div>
-                <div className="flex items-start space-x-4">
-                  <div className="flex-shrink-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">4</div>
-                  <div>
-                    <h3 className="text-lg font-semibold text-gray-900">広告配信・最適化</h3>
-                    <p className="text-gray-600">機械学習による広告配信の自動最適化で効果を最大化</p>
+                  <div className="bg-white p-4 rounded-lg text-center">
+                    <h4 className="font-semibold text-purple-600 mb-2">⚙️ 運営</h4>
+                    <p className="text-gray-600 text-sm">PV数に応じて広告費を従量課金で徴収</p>
                   </div>
                 </div>
               </div>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-semibold text-gray-800 mb-4">競合優位性</h2>
+              
               <div className="bg-gray-50 p-6 rounded-lg">
-                <div className="grid md:grid-cols-2 gap-6">
-                  <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-3">技術的優位性</h3>
-                    <ul className="list-disc list-inside text-gray-600 space-y-2">
-                      <li>独自のニッチ市場分析アルゴリズム</li>
-                      <li>高精度ターゲティングシステム</li>
-                      <li>リアルタイム最適化エンジン</li>
-                    </ul>
+                <p className="text-gray-600">
+                  このように、<strong>ユーザーと広告主を橋渡しするプラットフォーム構造</strong>を取ります。
+                </p>
+              </div>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-semibold text-gray-800 mb-4">2. 従量課金広告とは？</h2>
+              <div className="space-y-6">
+                <div className="bg-green-50 p-6 rounded-lg">
+                  <p className="text-gray-600 mb-4">
+                    従量課金広告とは、広告が<strong>「どれだけ見られたか（PV数）」「どれだけ利用されたか」</strong>に応じて料金が発生する仕組みです。
+                    例えるなら、水道や電気と同じで<strong>「使った分だけ支払う」</strong>モデルです。
+                  </p>
+                  
+                  <div className="grid md:grid-cols-2 gap-4 mb-4">
+                    <div className="bg-white p-4 rounded border-l-4 border-green-500">
+                      <div className="font-semibold text-green-600">100回見られたら</div>
+                      <div className="text-gray-600 text-sm">100回分の料金</div>
+                    </div>
+                    <div className="bg-white p-4 rounded border-l-4 border-green-500">
+                      <div className="font-semibold text-green-600">1000回見られたら</div>
+                      <div className="text-gray-600 text-sm">1000回分の料金</div>
+                    </div>
                   </div>
-                  <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-3">市場ポジション</h3>
-                    <ul className="list-disc list-inside text-gray-600 space-y-2">
-                      <li>ニッチ市場専門の先行者優位</li>
-                      <li>小規模広告主との強固な関係</li>
-                      <li>専門性の高いコンサルティング力</li>
-                    </ul>
+                </div>
+
+                <div className="bg-yellow-50 p-6 rounded-lg">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-3">本事業での課金ルール</h3>
+                  <div className="space-y-3">
+                    <div className="flex items-center space-x-4">
+                      <span className="font-semibold text-yellow-700">課金単価：</span>
+                      <span className="text-2xl font-bold text-yellow-600">1PV = 10円</span>
+                    </div>
+                    <div className="bg-white p-4 rounded border-l-4 border-yellow-500">
+                      <div className="font-medium">例：店舗ページが月間1000PV</div>
+                      <div className="text-lg">→ 1000 × 10円 = <span className="font-bold text-yellow-600">1万円</span></div>
+                    </div>
+                    <p className="text-gray-600 text-sm">
+                      シンプルで分かりやすく、費用対効果を広告主が直感的に把握できます。
+                    </p>
                   </div>
                 </div>
               </div>
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-gray-800 mb-4">パートナーシップ戦略</h2>
-              <div className="space-y-4">
-                <div className="border border-gray-200 p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">技術パートナー</h3>
-                  <p className="text-gray-600 text-sm">
-                    AI・機械学習技術の専門企業との戦略的提携により、技術力の向上と開発コストの最適化を図る
+              <h2 className="text-2xl font-semibold text-gray-800 mb-4">3. 入稿と決済を簡単にする仕組み</h2>
+              <div className="space-y-6">
+                <div className="bg-red-50 border-l-4 border-red-500 p-6">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-3">従来の課題</h3>
+                  <p className="text-gray-600">
+                    従来の広告出稿は「専用管理画面の操作」「複雑な入稿設定」「請求書払い」がハードルになっていました。
                   </p>
                 </div>
-                <div className="border border-gray-200 p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">メディアパートナー</h3>
-                  <p className="text-gray-600 text-sm">
-                    ニッチコミュニティを運営するメディア企業との協業により、ユーザー獲得チャネルを拡大
+
+                <div className="bg-blue-50 border-l-4 border-blue-500 p-6">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-3">本事業の解決策</h3>
+                  <p className="text-gray-600 mb-4">
+                    そこで本事業では<strong>LINE × PayPay</strong>を利用し、小規模事業者でも簡単に広告を出せるように設計しています。
+                  </p>
+                  
+                  <div className="grid md:grid-cols-1 gap-4">
+                    <div className="bg-white p-4 rounded">
+                      <h4 className="font-semibold text-blue-600 mb-2">📱 広告入稿：LINEから送信</h4>
+                      <p className="text-gray-600 text-sm">
+                        → 広告主は普段使い慣れているLINEで、文章や画像を送るだけで広告入稿可能
+                      </p>
+                    </div>
+                    <div className="bg-white p-4 rounded">
+                      <h4 className="font-semibold text-blue-600 mb-2">💳 決済：PayPay支払い</h4>
+                      <p className="text-gray-600 text-sm">
+                        → 入稿後にLINE上でPayPay決済すれば即時広告掲載がスタート
+                      </p>
+                    </div>
+                    <div className="bg-white p-4 rounded">
+                      <h4 className="font-semibold text-blue-600 mb-2">📊 利用量に応じた請求</h4>
+                      <p className="text-gray-600 text-sm">
+                        → 「店舗ページのPV数 × 10円」をベースに月ごとに自動精算
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-green-50 p-6 rounded-lg">
+                  <p className="text-gray-600 font-medium">
+                    これにより、<strong>誰でも直感的に広告出稿を始められる環境</strong>を整えます。
                   </p>
                 </div>
-                <div className="border border-gray-200 p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">販売代理店</h3>
-                  <p className="text-gray-600 text-sm">
-                    地域密着型の広告代理店との連携により、全国展開とローカルマーケットへの浸透を促進
+              </div>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-semibold text-gray-800 mb-4">4. リクルートの「リボンモデル」との関係</h2>
+              <div className="space-y-6">
+                <div className="bg-purple-50 p-6 rounded-lg">
+                  <p className="text-gray-600 mb-4">
+                    本事業の収益モデルは、<strong>リクルートが長年採用してきた「リボンモデル」</strong>を参考にしています。
                   </p>
+                  
+                  <div className="bg-white p-4 rounded border-l-4 border-purple-500">
+                    <h4 className="font-semibold text-gray-800 mb-2">リボンモデルとは？</h4>
+                    <ul className="text-gray-600 text-sm space-y-1 list-disc list-inside">
+                      <li>中央にプラットフォームがあり、左右に「ユーザー」と「クライアント（広告主）」が配置される構造。</li>
+                      <li>例：SUUMO（家探し）、ホットペッパー（飲食）、ゼクシィ（結婚）など。</li>
+                      <li>ユーザーが情報を探す → クライアントは掲載料を支払って訴求 → プラットフォームが双方をつなぐ。</li>
+                      <li>結果として「ユーザー数が増えるほどクライアント価値が上がる」「クライアントが増えるほどユーザーに情報が集まる」という<strong>双方向の循環（リボン型の循環）</strong>が生まれる。</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className="bg-orange-50 p-6 rounded-lg">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-3">本事業への適用</h3>
+                  <div className="grid md:grid-cols-3 gap-4">
+                    <div className="bg-white p-4 rounded text-center">
+                      <h4 className="font-semibold text-orange-600 mb-2">👥 ユーザー側</h4>
+                      <p className="text-gray-600 text-sm">読書好き、幹事、夫婦、ナイトワーク利用者、ファッション愛好家など</p>
+                    </div>
+                    <div className="bg-white p-4 rounded text-center">
+                      <h4 className="font-semibold text-orange-600 mb-2">⚙️ 中央（プラットフォーム）</h4>
+                      <p className="text-gray-600 text-sm">本事業が提供する5プロダクト</p>
+                    </div>
+                    <div className="bg-white p-4 rounded text-center">
+                      <h4 className="font-semibold text-orange-600 mb-2">🏪 クライアント側</h4>
+                      <p className="text-gray-600 text-sm">書店、カフェ、ブックバー、ユーロヴィンテージ店舗、ナイトキャスト紹介店舗、夫婦支援サービスなど</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <p className="text-gray-600">
+                    <strong>従量課金モデルとリボンモデルを掛け合わせることで、ニッチ市場でも持続的な成長サイクルを実現します。</strong>
+                  </p>
+                </div>
+              </div>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-semibold text-gray-800 mb-4">5. まとめ</h2>
+              <div className="bg-gray-50 p-6 rounded-lg">
+                <div className="space-y-4">
+                  <div className="flex items-start space-x-3">
+                    <div className="flex-shrink-0 w-6 h-6 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm font-bold">✓</div>
+                    <div>
+                      <p className="text-gray-600">
+                        本事業は<strong>PV数 × 10円の従量課金広告</strong>を基本とし、広告主がわかりやすく利用できる設計。
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="flex-shrink-0 w-6 h-6 bg-green-600 text-white rounded-full flex items-center justify-center text-sm font-bold">✓</div>
+                    <div>
+                      <p className="text-gray-600">
+                        <strong>LINE入稿 × PayPay決済</strong>によって入稿・決済のハードルを下げ、小規模事業者でも導入可能。
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="flex-shrink-0 w-6 h-6 bg-purple-600 text-white rounded-full flex items-center justify-center text-sm font-bold">✓</div>
+                    <div>
+                      <p className="text-gray-600">
+                        リクルートの<strong>「リボンモデル」</strong>を応用し、ユーザーと広告主の双方を拡大させる循環型プラットフォームを構築。
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </section>
