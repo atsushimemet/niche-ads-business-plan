@@ -7,135 +7,223 @@ export default function UserProblems() {
           
           <div className="space-y-8">
             <section>
-              <h2 className="text-2xl font-semibold text-gray-800 mb-4">広告主が抱える課題</h2>
-              <div className="space-y-6">
-                <div className="bg-red-50 border-l-4 border-red-500 p-6">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-3">課題1: ニッチ市場へのリーチ困難</h3>
-                  <div className="space-y-2 text-gray-600">
-                    <p><span className="font-medium">現状:</span> 大手広告プラットフォームでは、特定のニッチ分野に興味を持つユーザーに効率的にリーチできない</p>
-                    <p><span className="font-medium">影響:</span> 広告費の無駄遣い、コンバージョン率の低下、ROIの悪化</p>
-                    <p><span className="font-medium">解決策:</span> ニッチ市場に特化したターゲティング機能で、精密なユーザーセグメンテーションを実現</p>
-                  </div>
-                </div>
-
-                <div className="bg-orange-50 border-l-4 border-orange-500 p-6">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-3">課題2: 高額な最低出稿金額</h3>
-                  <div className="space-y-2 text-gray-600">
-                    <p><span className="font-medium">現状:</span> 既存プラットフォームの最低出稿金額が高く、小規模事業者が参入しにくい</p>
-                    <p><span className="font-medium">影響:</span> 予算制約による広告機会の逸失、小規模ビジネスの成長阻害</p>
-                    <p><span className="font-medium">解決策:</span> 月額1万円からの低予算でも効果的な広告配信を可能にする仕組みを提供</p>
-                  </div>
-                </div>
-
-                <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-3">課題3: 複雑な設定・運用</h3>
-                  <div className="space-y-2 text-gray-600">
-                    <p><span className="font-medium">現状:</span> 広告プラットフォームの設定が複雑で、専門知識が必要</p>
-                    <p><span className="font-medium">影響:</span> 運用工数の増大、最適化の機会損失、人的リソースの負担</p>
-                    <p><span className="font-medium">解決策:</span> AI による自動最適化機能と直感的なUIで、誰でも簡単に運用可能</p>
-                  </div>
-                </div>
-              </div>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-semibold text-gray-800 mb-4">メディア運営者が抱える課題</h2>
-              <div className="space-y-6">
-                <div className="bg-blue-50 border-l-4 border-blue-500 p-6">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-3">課題1: 収益化の困難さ</h3>
-                  <div className="space-y-2 text-gray-600">
-                    <p><span className="font-medium">現状:</span> ニッチコミュニティは規模が小さく、既存の広告では収益化が困難</p>
-                    <p><span className="font-medium">影響:</span> コンテンツ制作の継続困難、コミュニティ運営の経済的負担</p>
-                    <p><span className="font-medium">解決策:</span> ニッチ分野に特化した高単価広告により、少ないトラフィックでも十分な収益を実現</p>
-                  </div>
-                </div>
-
-                <div className="bg-purple-50 border-l-4 border-purple-500 p-6">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-3">課題2: 関連性の低い広告表示</h3>
-                  <div className="space-y-2 text-gray-600">
-                    <p><span className="font-medium">現状:</span> コミュニティの特性と合わない広告が表示され、ユーザー体験が悪化</p>
-                    <p><span className="font-medium">影響:</span> ユーザーエンゲージメントの低下、広告収入の減少</p>
-                    <p><span className="font-medium">解決策:</span> コミュニティの特性を理解したマッチング機能で、関連性の高い広告のみを配信</p>
-                  </div>
-                </div>
-              </div>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-semibold text-gray-800 mb-4">エンドユーザーが抱える課題</h2>
-              <div className="space-y-6">
-                <div className="bg-green-50 border-l-4 border-green-500 p-6">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-3">課題1: 興味に合わない広告の表示</h3>
-                  <div className="space-y-2 text-gray-600">
-                    <p><span className="font-medium">現状:</span> 一般的すぎる広告や関心のない分野の広告が頻繁に表示される</p>
-                    <p><span className="font-medium">影響:</span> 広告疲れ、ユーザー体験の悪化、広告ブロッカーの使用増加</p>
-                    <p><span className="font-medium">解決策:</span> ユーザーの深い興味・関心に基づいた、価値のある情報として感じられる広告を配信</p>
-                  </div>
-                </div>
-
-                <div className="bg-teal-50 border-l-4 border-teal-500 p-6">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-3">課題2: ニッチな商品・サービスの発見困難</h3>
-                  <div className="space-y-2 text-gray-600">
-                    <p><span className="font-medium">現状:</span> 自分の趣味や専門分野に関連する商品・サービスを見つけるのが困難</p>
-                    <p><span className="font-medium">影響:</span> 購買機会の逸失、満足度の高い商品との出会い不足</p>
-                    <p><span className="font-medium">解決策:</span> 個人の興味に完全にマッチした商品・サービスとの出会いを創出</p>
-                  </div>
-                </div>
-              </div>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-semibold text-gray-800 mb-4">市場全体の課題</h2>
-              <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">従来の広告プラットフォームの限界</h3>
+              <h2 className="text-2xl font-semibold text-gray-800 mb-4">一段読書（読書体験支援）</h2>
+              <div className="bg-blue-50 p-6 rounded-lg">
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
-                    <h4 className="font-semibold text-gray-800 mb-2">技術的限界</h4>
-                    <ul className="list-disc list-inside text-gray-600 space-y-1 text-sm">
-                      <li>大規模ユーザー向けのアルゴリズム</li>
-                      <li>ニッチセグメントの分析不足</li>
-                      <li>画一的なターゲティング手法</li>
-                      <li>小規模市場への対応不備</li>
-                    </ul>
+                    <h3 className="text-xl font-semibold text-gray-900 mb-3">📚 ユーザー課題</h3>
+                    <div className="space-y-3">
+                      <div className="bg-white p-4 rounded border-l-4 border-red-500 h-16 flex items-center">
+                        <p className="text-gray-600 text-sm">読書を習慣化できない（続けられない、時間がない）</p>
+                      </div>
+                      <div className="bg-white p-4 rounded border-l-4 border-red-500 h-16 flex items-center">
+                        <p className="text-gray-600 text-sm">読んでも内容が記憶に残らず、学びを活かせない</p>
+                      </div>
+                      <div className="bg-white p-4 rounded border-l-4 border-red-500 h-16 flex items-center">
+                        <p className="text-gray-600 text-sm">行きつけの書店やカフェを見つけられず、環境づくりに手間がかかる</p>
+                      </div>
+                    </div>
                   </div>
+                  
                   <div>
-                    <h4 className="font-semibold text-gray-800 mb-2">ビジネス的限界</h4>
-                    <ul className="list-disc list-inside text-gray-600 space-y-1 text-sm">
-                      <li>大型広告主重視のビジネスモデル</li>
-                      <li>最小ロット制約による参入障壁</li>
-                      <li>専門性の低いサポート体制</li>
-                      <li>ニッチ市場軽視の収益構造</li>
-                    </ul>
+                    <h3 className="text-xl font-semibold text-gray-900 mb-3">💡 解決策</h3>
+                    <div className="space-y-3">
+                      <div className="bg-white p-4 rounded border-l-4 border-green-500 h-16 flex items-center">
+                        <p className="text-gray-600 text-sm">「1章／1段落でも読めばOK」という超ミニマム習慣設計</p>
+                      </div>
+                      <div className="bg-white p-4 rounded border-l-4 border-green-500 h-16 flex items-center">
+                        <p className="text-gray-600 text-sm">読後メモ・知識整理機能で学びを行動に変換</p>
+                      </div>
+                      <div className="bg-white p-4 rounded border-l-4 border-green-500 h-16 flex items-center">
+                        <p className="text-gray-600 text-sm">書店・カフェ・ブックバー検索で最適な読書環境を提案</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-gray-800 mb-4">課題解決によるインパクト</h2>
-              <div className="grid md:grid-cols-3 gap-4">
-                <div className="bg-blue-100 p-4 rounded-lg text-center">
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">広告主</h3>
-                  <div className="text-sm text-gray-600">
-                    <p>ROI改善</p>
-                    <p className="text-2xl font-bold text-blue-600">300%</p>
-                    <p>従来比改善予想</p>
+              <h2 className="text-2xl font-semibold text-gray-800 mb-4">Euro a Porte（ユーロヴィンテージファッション体験）</h2>
+              <div className="bg-purple-50 p-6 rounded-lg">
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <h3 className="text-xl font-semibold text-gray-900 mb-3">👔 ユーザー課題</h3>
+                    <div className="space-y-3">
+                      <div className="bg-white p-4 rounded border-l-4 border-red-500 h-16 flex items-center">
+                        <p className="text-gray-600 text-sm">ユーロヴィンテージの価値や背景知識が不足し、購入やコーディネートに自信が持てない</p>
+                      </div>
+                      <div className="bg-white p-4 rounded border-l-4 border-red-500 h-16 flex items-center">
+                        <p className="text-gray-600 text-sm">信頼できる店舗情報が分散しており、安心して買える場を見つけにくい</p>
+                      </div>
+                      <div className="bg-white p-4 rounded border-l-4 border-red-500 h-16 flex items-center">
+                        <p className="text-gray-600 text-sm">同じ関心を持つコミュニティが小規模で、情報交換の機会が限られている</p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div>
+                    <h3 className="text-xl font-semibold text-gray-900 mb-3">💡 解決策</h3>
+                    <div className="space-y-3">
+                      <div className="bg-white p-4 rounded border-l-4 border-green-500 h-16 flex items-center">
+                        <p className="text-gray-600 text-sm">歴史的文脈やストーリーテリングを交えた商品紹介</p>
+                      </div>
+                      <div className="bg-white p-4 rounded border-l-4 border-green-500 h-16 flex items-center">
+                        <p className="text-gray-600 text-sm">店舗紹介を通じて信頼できる購買先をナビゲート</p>
+                      </div>
+                      <div className="bg-white p-4 rounded border-l-4 border-green-500 h-16 flex items-center">
+                        <p className="text-gray-600 text-sm">ユーザー同士の興味関心をつなげる媒体として機能</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div className="bg-green-100 p-4 rounded-lg text-center">
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">メディア運営者</h3>
-                  <div className="text-sm text-gray-600">
-                    <p>収益単価向上</p>
-                    <p className="text-2xl font-bold text-green-600">500%</p>
-                    <p>従来広告との比較</p>
+              </div>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-semibold text-gray-800 mb-4">Arisa（ナイトワークキャスト検索）</h2>
+              <div className="bg-pink-50 p-6 rounded-lg">
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <h3 className="text-xl font-semibold text-gray-900 mb-3">🌟 ユーザー課題</h3>
+                    <div className="space-y-3">
+                      <div className="bg-white p-4 rounded border-l-4 border-red-500 h-16 flex items-center">
+                        <p className="text-gray-600 text-sm">初めて利用する際に「誰を選べばいいか分からない」という不安</p>
+                      </div>
+                      <div className="bg-white p-4 rounded border-l-4 border-red-500 h-16 flex items-center">
+                        <p className="text-gray-600 text-sm">口コミや紹介に依存しており、比較検討の選択肢が限られる</p>
+                      </div>
+                      <div className="bg-white p-4 rounded border-l-4 border-red-500 h-16 flex items-center">
+                        <p className="text-gray-600 text-sm">事前に情報が得られず、ミスマッチや失敗体験が発生しやすい</p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div>
+                    <h3 className="text-xl font-semibold text-gray-900 mb-3">💡 解決策</h3>
+                    <div className="space-y-3">
+                      <div className="bg-white p-4 rounded border-l-4 border-green-500 h-16 flex items-center">
+                        <p className="text-gray-600 text-sm">キャスト情報を一覧・比較できる仕組みを提供</p>
+                      </div>
+                      <div className="bg-white p-4 rounded border-l-4 border-green-500 h-16 flex items-center">
+                        <p className="text-gray-600 text-sm">ユーザーの条件に合致した候補を推薦</p>
+                      </div>
+                      <div className="bg-white p-4 rounded border-l-4 border-green-500 h-16 flex items-center">
+                        <p className="text-gray-600 text-sm">事前選定によりミスマッチを減らし、利用体験の透明性を向上</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div className="bg-purple-100 p-4 rounded-lg text-center">
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">エンドユーザー</h3>
-                  <div className="text-sm text-gray-600">
-                    <p>広告満足度</p>
-                    <p className="text-2xl font-bold text-purple-600">85%</p>
-                    <p>目標満足度指標</p>
+              </div>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-semibold text-gray-800 mb-4">Coubit（夫婦生活支援）</h2>
+              <div className="bg-green-50 p-6 rounded-lg">
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <h3 className="text-xl font-semibold text-gray-900 mb-3">💑 ユーザー課題</h3>
+                    <div className="space-y-3">
+                      <div className="bg-white p-4 rounded border-l-4 border-red-500 h-16 flex items-center">
+                        <p className="text-gray-600 text-sm">日常生活で「買い物リストの齟齬」や「家計の精算」など小さな摩擦が積み重なり、ストレスに発展する</p>
+                      </div>
+                      <div className="bg-white p-4 rounded border-l-4 border-red-500 h-16 flex items-center">
+                        <p className="text-gray-600 text-sm">家事分担や金銭管理における認識の差が、夫婦間の不公平感を生みやすい</p>
+                      </div>
+                      <div className="bg-white p-4 rounded border-l-4 border-red-500 h-16 flex items-center">
+                        <p className="text-gray-600 text-sm">ITリテラシーが高くない世帯にとって、複雑なアプリは使いにくい</p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div>
+                    <h3 className="text-xl font-semibold text-gray-900 mb-3">💡 解決策</h3>
+                    <div className="space-y-3">
+                      <div className="bg-white p-4 rounded border-l-4 border-green-500 h-16 flex items-center">
+                        <p className="text-gray-600 text-sm">シンプルな買い物リスト共有機能で「買い忘れ・買い過ぎ」を防止</p>
+                      </div>
+                      <div className="bg-white p-4 rounded border-l-4 border-green-500 h-16 flex items-center">
+                        <p className="text-gray-600 text-sm">夫婦間の支払いを自動的に僾斜配分し、公平に精算</p>
+                      </div>
+                      <div className="bg-white p-4 rounded border-l-4 border-green-500 h-16 flex items-center">
+                        <p className="text-gray-600 text-sm">最小限の操作で使えるマイクロサービス群として展開</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-semibold text-gray-800 mb-4">KAISEI（飲み会幹事支援）</h2>
+              <div className="bg-yellow-50 p-6 rounded-lg">
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <h3 className="text-xl font-semibold text-gray-900 mb-3">🍻 ユーザー課題</h3>
+                    <div className="space-y-3">
+                      <div className="bg-white p-4 rounded border-l-4 border-red-500 h-16 flex items-center">
+                        <p className="text-gray-600 text-sm">幹事業務（傾斜配分計算、二次会場所選び、予算管理）が手間で負担が大きい</p>
+                      </div>
+                      <div className="bg-white p-4 rounded border-l-4 border-red-500 h-16 flex items-center">
+                        <p className="text-gray-600 text-sm">参加者の希望や支払意向が不透明で、最適なプランを立てにくい</p>
+                      </div>
+                      <div className="bg-white p-4 rounded border-l-4 border-red-500 h-16 flex items-center">
+                        <p className="text-gray-600 text-sm">二次会の予約などは一次会の進行状況に依存し、柔軟な対応が必要</p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div>
+                    <h3 className="text-xl font-semibold text-gray-900 mb-3">💡 解決策</h3>
+                    <div className="space-y-3">
+                      <div className="bg-white p-4 rounded border-l-4 border-green-500 h-16 flex items-center">
+                        <p className="text-gray-600 text-sm">自動精算（傾斜配分）で幹事の計算負担を軽減</p>
+                      </div>
+                      <div className="bg-white p-4 rounded border-l-4 border-green-500 h-16 flex items-center">
+                        <p className="text-gray-600 text-sm">二次会候補の提案で意思決定をサポート</p>
+                      </div>
+                      <div className="bg-white p-4 rounded border-l-4 border-green-500 h-16 flex items-center">
+                        <p className="text-gray-600 text-sm">支払い・予約管理を一元化し、スムーズな進行を実現</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-semibold text-gray-800 mb-4">全体まとめ</h2>
+              <div className="bg-gray-50 p-6 rounded-lg">
+                <p className="text-gray-600 mb-4">
+                  5プロダクトはそれぞれ異なるニッチ領域に焦点を当てているが、共通するのは<strong>「日常に存在する小さな不便・不安を解消し、ユーザー体験を滑らかにする」</strong>というコンセプトである。
+                </p>
+                
+                <div className="bg-white p-4 rounded border-l-4 border-blue-500">
+                  <p className="text-gray-600">
+                    それぞれの課題は一見小規模に見えるが、積み上げることで大きな市場機会につながり、広告モデルによる収益化が成立する。
+                  </p>
+                </div>
+
+                <div className="mt-6 grid md:grid-cols-5 gap-4 text-center">
+                  <div className="bg-blue-100 p-3 rounded">
+                    <div className="text-xs text-gray-600 mb-1">一段読書</div>
+                    <div className="font-semibold text-blue-600">習慣化支援</div>
+                  </div>
+                  <div className="bg-purple-100 p-3 rounded">
+                    <div className="text-xs text-gray-600 mb-1">Euro a Porte</div>
+                    <div className="font-semibold text-purple-600">知識・信頼</div>
+                  </div>
+                  <div className="bg-pink-100 p-3 rounded">
+                    <div className="text-xs text-gray-600 mb-1">Arisa</div>
+                    <div className="font-semibold text-pink-600">選択支援</div>
+                  </div>
+                  <div className="bg-green-100 p-3 rounded">
+                    <div className="text-xs text-gray-600 mb-1">Coubit</div>
+                    <div className="font-semibold text-green-600">関係改善</div>
+                  </div>
+                  <div className="bg-yellow-100 p-3 rounded">
+                    <div className="text-xs text-gray-600 mb-1">KAISEI</div>
+                    <div className="font-semibold text-yellow-600">負担軽減</div>
                   </div>
                 </div>
               </div>
